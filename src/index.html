@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two Cards Game</title>
+</head>
+
+<body>
+  <button id="start_button" onclick="startGame()">START</button>
+
+  <div id="game_board" style="display: none;">
+    <div>作成予定の画面</div>
+  </div>
+
+  <script>
+    const startGame = () => {
+      alert('ゲームを開始します！');
+
+      document.getElementById('start_button').style.display = 'none';
+      document.getElementById('game_board').style.display = 'block';
+    }
+  </script>
+</body>
+
+</html>
